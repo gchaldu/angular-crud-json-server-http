@@ -1,0 +1,26 @@
+<section class="seccion">
+  <fieldset>
+      <legend>Nuevo Cliente</legend>
+      <form [formGroup]="forms" id="formulario">
+          <div class="campo">
+              <label for="apellido">Apellido: </label>
+              <input type="text" id="apellido" formControlName="apellido">
+          </div>
+          <div class="campo">
+              <label for="nombre">Nombre: </label>
+              <input type="text" id="nombre" formControlName="nombre">
+          </div>
+          <div class="campo">
+              <label for="dni">DNI</label>
+              <input type="number" id="dni" formControlName="dni">
+          </div>
+          <div class="campo">
+              <label for="fecha-inicio">Fecha inicio: </label>
+              <input type="date" id="fecha-inicio" formControlName="fechaInicio">
+          </div>
+          <div class="campo">
+              <input type="submit" value="Crear Cliente" (click)="onAltaCliente()">
+          </div>
+      </form>
+  </fieldset>
+</section>

@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: end;
+    margin: .5rem;
+}
+
+.navegacion a{
+    text-decoration: none;
+    margin: 1rem;
+    color: black;
+}
+
+header hr{
+    border: .5px solid #e1e1e1;
+}

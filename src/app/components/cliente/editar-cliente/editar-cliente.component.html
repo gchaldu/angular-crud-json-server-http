@@ -1,0 +1,30 @@
+<section class="seccion">
+  <fieldset>
+      <legend>Editar Cliente</legend>
+      <form [formGroup]="form" id="formulario">
+          <div class="campo">
+              <label for="apellido">Apellido: </label>
+              <input type="text" id="apellido" formControlName="editApellido">
+          </div>
+          <div class="campo">
+              <label for="nombre">Nombre: </label>
+              <input type="text" id="nombre" formControlName="editNombre">
+          </div>
+          <div class="campo">
+              <label for="dni">DNI</label>
+              <input type="number" id="dni" formControlName="editDni">
+          </div>
+          <div class="campo">
+              <label for="fecha-inicio">Fecha inicio: </label>
+              <input type="date" id="fecha-inicio" formControlName="editFechaInicio">
+          </div>
+          <div class="campo">
+              <input type="hidden" id="id" formControlName="editId">
+          </div>
+          <div class="campo">
+              <input type="submit" value="Actualizar Cliente" (click)="editarCliente()">
+          </div>
+      </form>
+  </fieldset>
+</section>
+

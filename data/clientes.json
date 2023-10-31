@@ -1,0 +1,18 @@
+{
+  "clientes": [
+    {
+      "apellido": "YouTics",
+      "nombre": "Gabriel",
+      "dni": 0,
+      "fechaInicio": "2023-10-12",
+      "id": 1
+    },
+    {
+      "apellido": "gabriel",
+      "nombre": "gabriel",
+      "dni": 2,
+      "fechaInicio": "2023-10-21",
+      "id": 2
+    }
+  ]
+}
